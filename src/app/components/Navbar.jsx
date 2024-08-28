@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          Port<span class="bg-gradient-to-r from-[#c475e7] to-[#d82f83] bg-clip-text text-transparent">
+          Port<span className="bg-gradient-to-r from-[#c475e7] to-[#d82f83] bg-clip-text text-transparent">
   folio
 </span>
 
