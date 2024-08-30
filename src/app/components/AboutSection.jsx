@@ -44,11 +44,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image alt='about-us' src="/images/about-image.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I'm passionate about creativity and technology, and my areas of expertise include web programming and graphic design. I create visually appealing, engaging, and functional websites that bring ideas to life. My technological expertise together with my experience developing user-friendly interfaces enables me to produce smooth digital experiences that have a lasting impression. Whether I'm creating a visually appealing brand identity or a responsive website, my goal is to satisfy my clients with top-notch work.
+          I am passionate about creativity and technology, and my areas of expertise include web programming and graphic design. I create visually appealing, engaging, and functional websites that bring ideas to life. My technological expertise together with my experience developing user-friendly interfaces enables me to produce smooth digital experiences that have a lasting impression. Whether I am creating a visually appealing brand identity or a responsive website, my goal is to satisfy my clients with top-notch work.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
