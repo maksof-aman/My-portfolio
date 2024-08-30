@@ -13,6 +13,7 @@ const EmailSection = () => {
     const data = {
       email: e.target.email.value,
       subject: e.target.subject.value,
+      phone_no: e.target.phone_no.value,
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
@@ -53,10 +54,10 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/maksof-aman" target='_blank'>
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/amanullah-khan-17b862263/" target='_blank'>
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
@@ -81,7 +82,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="example@gmail.com"
               />
             </div>
             <div className="mb-6">
@@ -98,6 +99,22 @@ const EmailSection = () => {
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                 placeholder="Just saying hi"
+              />
+            </div>
+            <div className="mb-6">
+              <label
+                htmlFor="phone_no"
+                className="text-white block text-sm mb-2 font-medium"
+              >
+                Phone_No
+              </label>
+              <input
+                name="phone_no"
+                type="tel"
+                id="phone_no"
+                required
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                placeholder="+92000-1000008"
               />
             </div>
             <div className="mb-6">
